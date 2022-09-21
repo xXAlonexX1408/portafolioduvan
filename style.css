@@ -1,0 +1,161 @@
+
+header{
+    background: url(img/fernando-hernandez-JdoofvUDUwc-unsplash.jpg) ;
+    background-size: cover;
+    
+}
+
+
+
+.navbar{
+    padding-right: 30px;
+    
+
+}
+
+.navbar-brand img{
+    width: 250px;
+    height: 200px;
+}
+.navbar a{
+    font-size:20px;
+
+}
+.img__header{
+width: 100%;
+}
+
+
+
+.parrafo{
+    color: #ffffff;  
+    font-size:29px;
+    padding-left:30%;
+    padding-top: 0;
+
+}
+.empezar{
+    background-color: #161615;
+    border-radius:7px;
+    color: #f0eaea;
+    font-size:30px; 
+    margin-left:44%;
+    margin-bottom:200px;
+    margin-top:50px ;
+}
+
+#container{
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+    max-width: 1300px;
+}
+#container p{
+    padding-bottom:50px;
+}
+
+.planes{
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.inline{
+    display: flex;
+   
+}
+.inline h3{
+    color: #ffff00;
+    padding-top:120px;
+    padding-bottom:120px;
+}
+.inline p{
+    font-size:20px;
+    text-align: center;
+    
+}
+.destino-1{
+    background: url(img/fotoduvan.jpg);
+    width: 30%;
+    height: 20%;
+    border-radius: 50%;
+    margin-left: 85%;
+    
+}
+
+
+#destinos {
+    padding:100px ;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url(img/diego-ph-fIq0tET6llw-unsplash.jpg);
+    background-size:cover;
+    width: 100%;
+
+}
+.respon{
+ width: 100%;
+}
+
+
+#destinos p{
+    font-size: 30px;
+    padding-bottom:50px;
+}
+#destinos h2{
+    margin-bottom: 50px;
+    color:rgb(14, 14, 13);
+    font-size: 35px;
+    font-weight:bolder;
+   
+}
+.card-destinos{
+  color: #ffffff;
+}
+
+section {
+    display: inline-block;
+    padding-right:10px;
+    padding-left:10px;
+    width:25%;
+    padding-bottom:30px;
+}
+.boton{
+    border-radius:2px;
+    border: 0px;
+    background:#4040407e;
+    margin-bottom:100px;
+    color: #ffffff;
+    width:10%;
+    padding-bottom:2px;
+
+}
+.footer{
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+}
+.footer img{
+
+    width: 4%;
+    height: 4%;
+
+}
+@media screen and (min-width:300px) and (max-width:500px) {
+    .empezar{
+
+        margin-left: 20%;
+    }
+    .navbar-brand img{
+        width: 150px;
+        height: 100px;
+    }
+    .destino-1{
+        width: 30%;
+        height: 20%;
+        border-radius: 50%;
+        margin-left:5px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        
+    }
+}
